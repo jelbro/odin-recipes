@@ -1,0 +1,41 @@
+.page-title {
+    text-align: center;
+    color: #26a7da;
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+
+.recipe {
+    font-size: 40px;
+}
+
+.lasagna {
+    display:inline-block;
+    text-align: left;
+    margin-left: 33%;
+}
+
+.burger {
+    display:inline-block;
+    text-align: center;
+}
+
+.mac {
+    display:inline-block;
+    text-align: right;
+}
+
+
+.home {
+    display: block;
+    text-align: center;
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: auto;
+}
