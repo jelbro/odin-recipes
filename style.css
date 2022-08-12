@@ -1,33 +1,32 @@
 .page-title {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
     color: #26a7da;
     font-size: 72px;
     font-weight: bolder;
 }
 
-
-.recipe {
-    font-size: 40px;
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
-.lasagna {
-    display: inline-block;
-    text-align: left;
-    margin-left: 10%;
-}
-
-.burger {
-    display: inline-block;
-    text-align: left;
-    margin-left: 20%;
-}
-
-.mac {
-    display: inline-block;
+.recipe{
+    background: tomato;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
     text-align: center;
-    margin-left: 20%;
 }
-
 
 .home {
     display: block;
