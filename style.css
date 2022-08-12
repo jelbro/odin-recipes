@@ -11,19 +11,21 @@
 }
 
 .lasagna {
-    display:inline-block;
+    display: inline-block;
     text-align: left;
-    margin-left: 33%;
+    margin-left: 10%;
 }
 
 .burger {
-    display:inline-block;
-    text-align: center;
+    display: inline-block;
+    text-align: left;
+    margin-left: 20%;
 }
 
 .mac {
-    display:inline-block;
-    text-align: right;
+    display: inline-block;
+    text-align: center;
+    margin-left: 20%;
 }
 
 
@@ -38,4 +40,8 @@
     margin-right: auto;
     height: 250px;
     width: auto;
+}
+
+body {
+    background-color: beige;
 }
