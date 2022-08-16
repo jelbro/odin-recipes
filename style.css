@@ -4,6 +4,7 @@
     color: #26a7da;
     font-size: 72px;
     font-weight: bolder;
+    font-family: Monospace;
 }
 
 .container {
@@ -16,31 +17,46 @@
 }
 
 .recipe{
-    background: tomato;
+    background: #26a7da;
     padding: 5px;
     width: 200px;
     height: 150px;
-    margin-top: 10px;
+    margin-top: 200px;
     line-height: 150px;
-    color: white;
+    color: beige;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+    font-family: Monospace;
 }
 
-.home {
-    display: block;
+.button{
+    background: #26a7da;
+    color: beige;
+    font-weight: bold;
+    font-size: 20px;
     text-align: center;
+    font-family: Monospace;
 }
 
 .images {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     height: 250px;
     width: auto;
 }
 
 body {
     background-color: beige;
+}
+
+.description-title{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
 }
